@@ -21,6 +21,7 @@ orjson>=3.9.0
 
 # LLM 통합 (선택사항 - 필요시 사용)
 langchain-openai>=0.1.0
+langchain-community>=0.1.0
 openai>=1.0.0
 # anthropic>=0.7.0
 
@@ -32,6 +33,9 @@ pandas>=2.0.0
 networkx>=3.1  # 그래프 시각화
 matplotlib>=3.7.0  # 그래프 그리기
 grandalf>=0.6  # ASCII 그래프 드로잉
+
+# CrewAI
+crewai>=0.1.0
 
 # 개발 도구
 jupyter>=1.0.0
