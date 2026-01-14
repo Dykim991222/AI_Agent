@@ -1,0 +1,38 @@
+# LangGraph 및 핵심 의존성
+langgraph>=0.0.50
+langchain>=0.1.0
+langchain-core>=0.1.0
+
+# 상태 타입 정의를 위한 스키마 라이브러리
+pydantic>=2.0.0
+pydantic-core>=2.0.0
+
+# 환경 변수 관리
+python-dotenv>=1.0.0
+
+# 비동기 처리
+aiohttp>=3.9.0
+
+# 타입 힌팅 및 검증
+typing-extensions>=4.5.0
+
+# JSON 처리 및 직렬화
+orjson>=3.9.0
+
+# LLM 통합 (선택사항 - 필요시 사용)
+langchain-openai>=0.1.0
+openai>=1.0.0
+# anthropic>=0.7.0
+
+# 데이터 처리
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 시각화 및 디버깅
+networkx>=3.1  # 그래프 시각화
+matplotlib>=3.7.0  # 그래프 그리기
+grandalf>=0.6  # ASCII 그래프 드로잉
+
+# 개발 도구
+jupyter>=1.0.0
+ipython>=8.10.0
