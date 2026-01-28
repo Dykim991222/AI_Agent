@@ -40,7 +40,8 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints/
 *.ipynb_checkpoints
-
+# Data files
+*.csv
 # OS
 .DS_Store
 Thumbs.db
